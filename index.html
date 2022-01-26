@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onfocus</title>
+</head>
+<body>
+     Your name:
+    <input type="text" id="name" onfocus="myFunction()">
+
+    <!-- onfocus attribute can make everything when you focus on sth -->
+
+    <script>
+        function myFunction(){
+        document.getElementById('name').style.background = 'yellow';
+        document.getElementById('name').value = "See my backround changed";
+        }
+    </script>
+    
+</body>
+</html>
